@@ -1,7 +1,7 @@
 import React from "react";
+import "../index.css";
 
-
-const SkillSection = () => {
+const SkillsSection = () => {
  
   return (
     <>
@@ -74,4 +74,4 @@ const SkillSection = () => {
   );
 };
 
-export default SkillSection;
+export default SkillsSection;

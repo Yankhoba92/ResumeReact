@@ -1,10 +1,13 @@
 import React from "react";
+import "../index.css";
+
+
 
 
 const AboutSection = () => {
  
   return (
-    <>
+    <div>
 
     <section id="about" className="about">
       <div className="container" data-aos="fade-up">
@@ -51,7 +54,7 @@ const AboutSection = () => {
 
       </div>
     </section>
-    </>
+    </div>
    
   );
 };
