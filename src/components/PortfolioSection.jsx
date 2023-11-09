@@ -9,6 +9,7 @@ import portfolio6 from "../assets/portfolio/portfolio-6.jpg";
 import portfolio7 from "../assets/portfolio/portfolio-7.jpg";
 import portfolio8 from "../assets/portfolio/portfolio-8.jpg";
 import portfolio9 from "../assets/portfolio/portfolio-9.jpg";
+import { Link } from "react-router-dom";
 
 
 function PortfolioSection () {
@@ -59,22 +60,22 @@ function PortfolioSection () {
                   <h4>App 1</h4>
                   <p>App</p>
                   <div className="portfolio-links">
-                    <a
-                      href={portfolio1}
+                    <Link
+                      to={portfolio1}
                       data-gallery="portfolioGallery"
                       className="portfolio-lightbox"
                       title="App 1"
                     >
                       <i className="bx bx-plus"></i>
-                    </a>
-                    <a
-                      href="portfolio-details.html"
+                    </Link>
+                    <Link
+                      to="portfolio-details.html"
                       className="portfolio-details-lightbox"
                       data-glightbox="type: external"
                       title="Portfolio Details"
                     >
                       <i className="bx bx-link"></i>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -91,22 +92,22 @@ function PortfolioSection () {
                   <h4>Web 3</h4>
                   <p>Web</p>
                   <div className="portfolio-links">
-                    <a
-                      href={portfolio2}
+                    <Link
+                      to={portfolio2}
                       data-gallery="portfolioGallery"
                       className="portfolio-lightbox"
                       title="Web 3"
                     >
                       <i className="bx bx-plus"></i>
-                    </a>
-                    <a
-                      href="portfolio-details.html"
+                    </Link>
+                    <Link
+                      to="portfolio-details.html"
                       className="portfolio-details-lightbox"
                       data-glightbox="type: external"
                       title="Portfolio Details"
                     >
                       <i className="bx bx-link"></i>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -123,22 +124,22 @@ function PortfolioSection () {
                   <h4>App 2</h4>
                   <p>App</p>
                   <div className="portfolio-links">
-                    <a
-                      href={portfolio3}
+                    <Link
+                      to={portfolio3}
                       data-gallery="portfolioGallery"
                       className="portfolio-lightbox"
                       title="App 2"
                     >
                       <i className="bx bx-plus"></i>
-                    </a>
-                    <a
-                      href="portfolio-details.html"
+                    </Link>
+                    <Link
+                      to="portfolio-details.html"
                       className="portfolio-details-lightbox"
                       data-glightbox="type: external"
                       title="Portfolio Details"
                     >
                       <i className="bx bx-link"></i>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -155,22 +156,22 @@ function PortfolioSection () {
                   <h4>Card 2</h4>
                   <p>Card</p>
                   <div className="portfolio-links">
-                    <a
-                      href={portfolio4}
+                    <Link
+                      to={portfolio4}
                       data-gallery="portfolioGallery"
                       className="portfolio-lightbox"
                       title="Card 2"
                     >
                       <i className="bx bx-plus"></i>
-                    </a>
-                    <a
-                      href="portfolio-details.html"
+                    </Link>
+                    <Link
+                      to="portfolio-details.html"
                       className="portfolio-details-lightbox"
                       data-glightbox="type: external"
                       title="Portfolio Details"
                     >
                       <i className="bx bx-link"></i>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -187,22 +188,22 @@ function PortfolioSection () {
                   <h4>Web 2</h4>
                   <p>Web</p>
                   <div className="portfolio-links">
-                    <a
-                      href={portfolio5}
+                    <Link
+                      to={portfolio5}
                       data-gallery="portfolioGallery"
                       className="portfolio-lightbox"
                       title="Web 2"
                     >
                       <i className="bx bx-plus"></i>
-                    </a>
-                    <a
-                      href="portfolio-details.html"
+                    </Link>
+                    <Link
+                      to="portfolio-details.html"
                       className="portfolio-details-lightbox"
                       data-glightbox="type: external"
                       title="Portfolio Details"
                     >
                       <i className="bx bx-link"></i>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -219,22 +220,22 @@ function PortfolioSection () {
                   <h4>App 3</h4>
                   <p>App</p>
                   <div className="portfolio-links">
-                    <a
-                      href={portfolio6}
+                    <Link
+                      to={portfolio6}
                       data-gallery="portfolioGallery"
                       className="portfolio-lightbox"
                       title="App 3"
                     >
                       <i className="bx bx-plus"></i>
-                    </a>
-                    <a
-                      href="portfolio-details.html"
+                    </Link>
+                    <Link
+                      to="portfolio-details.html"
                       className="portfolio-details-lightbox"
                       data-glightbox="type: external"
                       title="Portfolio Details"
                     >
                       <i className="bx bx-link"></i>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -251,22 +252,22 @@ function PortfolioSection () {
                   <h4>Card 1</h4>
                   <p>Card</p>
                   <div className="portfolio-links">
-                    <a
-                      href={portfolio7}
+                    <Link
+                      to={portfolio7}
                       data-gallery="portfolioGallery"
                       className="portfolio-lightbox"
                       title="Card 1"
                     >
                       <i className="bx bx-plus"></i>
-                    </a>
-                    <a
-                      href="portfolio-details.html"
+                    </Link>
+                    <Link
+                      to="portfolio-details.html"
                       className="portfolio-details-lightbox"
                       data-glightbox="type: external"
                       title="Portfolio Details"
                     >
                       <i className="bx bx-link"></i>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -283,22 +284,22 @@ function PortfolioSection () {
                   <h4>Card 3</h4>
                   <p>Card</p>
                   <div className="portfolio-links">
-                    <a
-                      href={portfolio8}
+                    <Link
+                      to={portfolio8}
                       data-gallery="portfolioGallery"
                       className="portfolio-lightbox"
                       title="Card 3"
                     >
                       <i className="bx bx-plus"></i>
-                    </a>
-                    <a
-                      href="portfolio-details.html"
+                    </Link>
+                    <Link
+                      to="portfolio-details.html"
                       className="portfolio-details-lightbox"
                       data-glightbox="type: external"
                       title="Portfolio Details"
                     >
                       <i className="bx bx-link"></i>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -315,22 +316,22 @@ function PortfolioSection () {
                   <h4>Web 3</h4>
                   <p>Web</p>
                   <div className="portfolio-links">
-                    <a
-                      href={portfolio9}
+                    <Link
+                      to={portfolio9}
                       data-gallery="portfolioGallery"
                       className="portfolio-lightbox"
                       title="Web 3"
                     >
                       <i className="bx bx-plus"></i>
-                    </a>
-                    <a
-                      href="portfolio-details.html"
+                    </Link>
+                    <Link
+                      to="portfolio-details.html"
                       className="portfolio-details-lightbox"
                       data-glightbox="type: external"
                       title="Portfolio Details"
                     >
                       <i className="bx bx-link"></i>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

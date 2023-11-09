@@ -1,5 +1,6 @@
 import React from "react";
 import "../index.css";
+import { Link } from "react-router-dom";
 
 
 const Footer = () => {
@@ -13,21 +14,21 @@ const Footer = () => {
             eligendi fuga maxime saepe commodi placeat.
           </p>
           <div className="social-links">
-            <a href="#" className="twitter">
+            <Link to="#" className="twitter">
               <i className="bx bxl-twitter"></i>
-            </a>
-            <a href="#" className="facebook">
+            </Link>
+            <Link to="#" className="facebook">
               <i className="bx bxl-facebook"></i>
-            </a>
-            <a href="#" className="instagram">
+            </Link>
+            <Link to="#" className="instagram">
               <i className="bx bxl-instagram"></i>
-            </a>
-            <a href="#" className="google-plus">
+            </Link>
+            <Link to="#" className="google-plus">
               <i className="bx bxl-skype"></i>
-            </a>
-            <a href="#" className="linkedin">
+            </Link>
+            <Link to="#" className="linkedin">
               <i className="bx bxl-linkedin"></i>
-            </a>
+            </Link>
           </div>
           <div className="copyright">
             &copy; Copyright{" "}
@@ -37,7 +38,7 @@ const Footer = () => {
             . All Rights Reserved
           </div>
           <div className="credits">
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            Designed by <Link to="https://bootstrapmade.com/">BootstrapMade</Link>
           </div>
         </div>
       </footer>
