@@ -1,12 +1,17 @@
 import React from "react";
 import "../index.css";
+import bckImage from "../assets/hero-bg.jpg"
 
 
 const HeroSection = () => {
  
   return (
     <>
-     <section id="hero" className="d-flex flex-column justify-content-center">
+     <section id="hero" className="d-flex flex-column justify-content-center" style={{backgroundImage:`url(${bckImage})`,
+    backgroundRepeat:`no-repeat`,
+    backgroundPosition:'top',
+    backgroundSsize: 'cover',
+  position: 'relative'}}>
     <div className="container" data-aos="zoom-in" data-aos-delay="100">
       <h1>Brandon Johnson</h1>
       <p>I'm <span className="typed" data-typed-items="Designer, Developer, Freelancer, Photographer"></span></p>

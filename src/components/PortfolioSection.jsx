@@ -1,5 +1,14 @@
 import React from "react";
 import "../index.css";
+import portfolio1 from "../assets/portfolio/portfolio-1.jpg";
+import portfolio2 from "../assets/portfolio/portfolio-2.jpg";
+import portfolio3 from "../assets/portfolio/portfolio-3.jpg";
+import portfolio4 from "../assets/portfolio/portfolio-4.jpg";
+import portfolio5 from "../assets/portfolio/portfolio-5.jpg";
+import portfolio6 from "../assets/portfolio/portfolio-6.jpg";
+import portfolio7 from "../assets/portfolio/portfolio-7.jpg";
+import portfolio8 from "../assets/portfolio/portfolio-8.jpg";
+import portfolio9 from "../assets/portfolio/portfolio-9.jpg";
 
 
 function PortfolioSection () {
@@ -42,7 +51,7 @@ function PortfolioSection () {
             <div className="col-lg-4 col-md-6 portfolio-item filter-app">
               <div className="portfolio-wrap">
                 <img
-                  src="assets/img/portfolio/portfolio-1.jpg"
+                  src={portfolio1}
                   className="img-fluid"
                   alt=""
                 />
@@ -51,7 +60,7 @@ function PortfolioSection () {
                   <p>App</p>
                   <div className="portfolio-links">
                     <a
-                      href="assets/img/portfolio/portfolio-1.jpg"
+                      href={portfolio1}
                       data-gallery="portfolioGallery"
                       className="portfolio-lightbox"
                       title="App 1"
@@ -74,7 +83,7 @@ function PortfolioSection () {
             <div className="col-lg-4 col-md-6 portfolio-item filter-web">
               <div className="portfolio-wrap">
                 <img
-                  src="assets/img/portfolio/portfolio-2.jpg"
+                  src={portfolio2}
                   className="img-fluid"
                   alt=""
                 />
@@ -83,7 +92,7 @@ function PortfolioSection () {
                   <p>Web</p>
                   <div className="portfolio-links">
                     <a
-                      href="assets/img/portfolio/portfolio-2.jpg"
+                      href={portfolio2}
                       data-gallery="portfolioGallery"
                       className="portfolio-lightbox"
                       title="Web 3"
@@ -106,7 +115,7 @@ function PortfolioSection () {
             <div className="col-lg-4 col-md-6 portfolio-item filter-app">
               <div className="portfolio-wrap">
                 <img
-                  src="assets/img/portfolio/portfolio-3.jpg"
+                  src={portfolio3}
                   className="img-fluid"
                   alt=""
                 />
@@ -115,7 +124,7 @@ function PortfolioSection () {
                   <p>App</p>
                   <div className="portfolio-links">
                     <a
-                      href="assets/img/portfolio/portfolio-3.jpg"
+                      href={portfolio3}
                       data-gallery="portfolioGallery"
                       className="portfolio-lightbox"
                       title="App 2"
@@ -138,7 +147,7 @@ function PortfolioSection () {
             <div className="col-lg-4 col-md-6 portfolio-item filter-card">
               <div className="portfolio-wrap">
                 <img
-                  src="assets/img/portfolio/portfolio-4.jpg"
+                  src={portfolio4}
                   className="img-fluid"
                   alt=""
                 />
@@ -147,7 +156,7 @@ function PortfolioSection () {
                   <p>Card</p>
                   <div className="portfolio-links">
                     <a
-                      href="assets/img/portfolio/portfolio-4.jpg"
+                      href={portfolio4}
                       data-gallery="portfolioGallery"
                       className="portfolio-lightbox"
                       title="Card 2"
@@ -170,7 +179,7 @@ function PortfolioSection () {
             <div className="col-lg-4 col-md-6 portfolio-item filter-web">
               <div className="portfolio-wrap">
                 <img
-                  src="assets/img/portfolio/portfolio-5.jpg"
+                  src={portfolio5}
                   className="img-fluid"
                   alt=""
                 />
@@ -179,7 +188,7 @@ function PortfolioSection () {
                   <p>Web</p>
                   <div className="portfolio-links">
                     <a
-                      href="assets/img/portfolio/portfolio-5.jpg"
+                      href={portfolio5}
                       data-gallery="portfolioGallery"
                       className="portfolio-lightbox"
                       title="Web 2"
@@ -202,7 +211,7 @@ function PortfolioSection () {
             <div className="col-lg-4 col-md-6 portfolio-item filter-app">
               <div className="portfolio-wrap">
                 <img
-                  src="assets/img/portfolio/portfolio-6.jpg"
+                  src={portfolio6}
                   className="img-fluid"
                   alt=""
                 />
@@ -211,7 +220,7 @@ function PortfolioSection () {
                   <p>App</p>
                   <div className="portfolio-links">
                     <a
-                      href="assets/img/portfolio/portfolio-6.jpg"
+                      href={portfolio6}
                       data-gallery="portfolioGallery"
                       className="portfolio-lightbox"
                       title="App 3"
@@ -234,7 +243,7 @@ function PortfolioSection () {
             <div className="col-lg-4 col-md-6 portfolio-item filter-card">
               <div className="portfolio-wrap">
                 <img
-                  src="assets/img/portfolio/portfolio-7.jpg"
+                  src={portfolio7}
                   className="img-fluid"
                   alt=""
                 />
@@ -243,7 +252,7 @@ function PortfolioSection () {
                   <p>Card</p>
                   <div className="portfolio-links">
                     <a
-                      href="assets/img/portfolio/portfolio-7.jpg"
+                      href={portfolio7}
                       data-gallery="portfolioGallery"
                       className="portfolio-lightbox"
                       title="Card 1"
@@ -266,7 +275,7 @@ function PortfolioSection () {
             <div className="col-lg-4 col-md-6 portfolio-item filter-card">
               <div className="portfolio-wrap">
                 <img
-                  src="assets/img/portfolio/portfolio-8.jpg"
+                  src={portfolio8}
                   className="img-fluid"
                   alt=""
                 />
@@ -275,7 +284,7 @@ function PortfolioSection () {
                   <p>Card</p>
                   <div className="portfolio-links">
                     <a
-                      href="assets/img/portfolio/portfolio-8.jpg"
+                      href={portfolio8}
                       data-gallery="portfolioGallery"
                       className="portfolio-lightbox"
                       title="Card 3"
@@ -298,7 +307,7 @@ function PortfolioSection () {
             <div className="col-lg-4 col-md-6 portfolio-item filter-web">
               <div className="portfolio-wrap">
                 <img
-                  src="assets/img/portfolio/portfolio-9.jpg"
+                  src={portfolio9}
                   className="img-fluid"
                   alt=""
                 />
@@ -307,7 +316,7 @@ function PortfolioSection () {
                   <p>Web</p>
                   <div className="portfolio-links">
                     <a
-                      href="assets/img/portfolio/portfolio-9.jpg"
+                      href={portfolio9}
                       data-gallery="portfolioGallery"
                       className="portfolio-lightbox"
                       title="Web 3"

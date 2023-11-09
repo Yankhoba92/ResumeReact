@@ -1,5 +1,10 @@
 import React from "react";
 import "../index.css";
+import testimonial1 from "../assets/testimonials/testimonials-1.jpg";
+import testimonial2 from "../assets/testimonials/testimonials-2.jpg";
+import testimonial3 from "../assets/testimonials/testimonials-3.jpg";
+import testimonial4 from "../assets/testimonials/testimonials-4.jpg";
+import testimonial5 from "../assets/testimonials/testimonials-4.jpg";
 
 
 const TestimonialSection = () => {
@@ -20,7 +25,7 @@ const TestimonialSection = () => {
               <div className="swiper-slide">
                 <div className="testimonial-item">
                   <img
-                    src="assets/img/testimonials/testimonials-1.jpg"
+                    src={testimonial1}
                     className="testimonial-img"
                     alt=""
                   />
@@ -40,7 +45,7 @@ const TestimonialSection = () => {
               <div className="swiper-slide">
                 <div className="testimonial-item">
                   <img
-                    src="assets/img/testimonials/testimonials-2.jpg"
+                    src={testimonial2}
                     className="testimonial-img"
                     alt=""
                   />
@@ -59,7 +64,7 @@ const TestimonialSection = () => {
               <div className="swiper-slide">
                 <div className="testimonial-item">
                   <img
-                    src="assets/img/testimonials/testimonials-3.jpg"
+                    src={testimonial3}
                     className="testimonial-img"
                     alt=""
                   />
@@ -78,7 +83,7 @@ const TestimonialSection = () => {
               <div className="swiper-slide">
                 <div className="testimonial-item">
                   <img
-                    src="assets/img/testimonials/testimonials-4.jpg"
+                    src={testimonial4}
                     className="testimonial-img"
                     alt=""
                   />
@@ -98,7 +103,7 @@ const TestimonialSection = () => {
               <div className="swiper-slide">
                 <div className="testimonial-item">
                   <img
-                    src="assets/img/testimonials/testimonials-5.jpg"
+                    src={testimonial5}
                     className="testimonial-img"
                     alt=""
                   />
